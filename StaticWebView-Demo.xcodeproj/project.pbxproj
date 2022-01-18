@@ -16,6 +16,7 @@
 		60A375652796C1A80059F1D1 /* StaticWebView_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A375642796C1A80059F1D1 /* StaticWebView_DemoTests.swift */; };
 		60A3756F2796C1A90059F1D1 /* StaticWebView_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A3756E2796C1A90059F1D1 /* StaticWebView_DemoUITests.swift */; };
 		60A375712796C1A90059F1D1 /* StaticWebView_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60A375702796C1A90059F1D1 /* StaticWebView_DemoUITestsLaunchTests.swift */; };
+		89980EA02796D93D00039B52 /* web in Resources */ = {isa = PBXBuildFile; fileRef = 89980E9F2796D93D00039B52 /* web */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		60A3756A2796C1A80059F1D1 /* StaticWebView-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "StaticWebView-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60A3756E2796C1A90059F1D1 /* StaticWebView_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticWebView_DemoUITests.swift; sourceTree = "<group>"; };
 		60A375702796C1A90059F1D1 /* StaticWebView_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticWebView_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89980E9F2796D93D00039B52 /* web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = web; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		60A3754C2796C1A50059F1D1 /* StaticWebView-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				89980E9F2796D93D00039B52 /* web */,
 				60A3754D2796C1A50059F1D1 /* AppDelegate.swift */,
 				60A3754F2796C1A50059F1D1 /* SceneDelegate.swift */,
 				60A375512796C1A50059F1D1 /* ViewController.swift */,
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60A3755A2796C1A80059F1D1 /* LaunchScreen.storyboard in Resources */,
+				89980EA02796D93D00039B52 /* web in Resources */,
 				60A375572796C1A80059F1D1 /* Assets.xcassets in Resources */,
 				60A375552796C1A50059F1D1 /* Main.storyboard in Resources */,
 			);

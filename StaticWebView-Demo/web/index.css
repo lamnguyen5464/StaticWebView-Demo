@@ -11,11 +11,16 @@ h1 {
 	font-size: 2rem;
 	font-weight: bolder;
 	margin-bottom: 1rem;
+	background-color: red;
+	color: red;
+
 }
 
 p {
 	margin-bottom: 1rem;
 	color: tomato;
+	background-color: black;
+
 }
 
 button {
@@ -25,6 +30,4 @@ button {
 	font-size: 1.25rem;
 	padding: 0.75rem 1rem;
 	border: 1px solid navy;
-	background-color: red;
-	color: red;
 }

@@ -9,7 +9,7 @@ import UIKit
 import WebKit
 
 class ViewController: UIViewController, WKNavigationDelegate {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,13 +18,14 @@ class ViewController: UIViewController, WKNavigationDelegate {
         webView = WKWebView()
         webView.navigationDelegate = self
         view = webView
-
         
-        let url = URL(string: "https://www.hackingwithswift.com")!
-        webView.load(URLRequest(url: url))
-        webView.allowsBackForwardNavigationGestures = true
+        
+        let url = Bundle.main.url(forResource: "game", withExtension: "html", subdirectory: "web")!
+        webView.loadFileURL(url, allowingReadAccessTo: url)
+        let request = URLRequest(url: url)
+        webView.load(request)
     }
-
-
+    
+    
 }
 

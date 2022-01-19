@@ -20,7 +20,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         view = webView
         
         
-        let url = Bundle.main.url(forResource: "game", withExtension: "html", subdirectory: "web")!
+        let url = Bundle.main.url(forResource: "index", withExtension: "html", subdirectory: "web")!
         webView.loadFileURL(url, allowingReadAccessTo: url)
         let request = URLRequest(url: url)
         webView.load(request)

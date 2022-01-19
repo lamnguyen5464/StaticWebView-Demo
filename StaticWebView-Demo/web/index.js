@@ -1,3 +1,4 @@
-$('button').on('click', function() {
-	$('p').css('opacity', 0);
-});
+
+setTimeout(()=>{
+    document.body.innerHTML = "<h1> load js successfullu</h1>"
+},2000)

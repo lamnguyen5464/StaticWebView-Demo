@@ -11,22 +11,13 @@ h1 {
 	font-size: 2rem;
 	font-weight: bolder;
 	margin-bottom: 1rem;
-<<<<<<< HEAD
-=======
-	background-color: red;
 	color: red;
-
->>>>>>> 98dab0107a4873b06197395ea3bf475c42e70ea5
 }
 
 p {
 	margin-bottom: 1rem;
 	color: tomato;
-<<<<<<< HEAD
-=======
-	background-color: black;
-
->>>>>>> 98dab0107a4873b06197395ea3bf475c42e70ea5
+    color: black;
 }
 
 button {
@@ -36,9 +27,6 @@ button {
 	font-size: 1.25rem;
 	padding: 0.75rem 1rem;
 	border: 1px solid navy;
-<<<<<<< HEAD
 	background-color: red;
 	color: red;
-=======
->>>>>>> 98dab0107a4873b06197395ea3bf475c42e70ea5
 }
